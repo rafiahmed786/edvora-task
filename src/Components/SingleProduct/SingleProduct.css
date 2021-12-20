@@ -1,0 +1,12 @@
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition-timing-function: ease;
+  transition: all 0.8s;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
